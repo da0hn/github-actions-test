@@ -6,8 +6,6 @@ jobs:
     steps:
       - name: echo a string
         run: echo "Hello World"
-      - name: failed job
-        run: ecchhoo "Hello World"
       - name: multiline script
         run: | 
           node -v
