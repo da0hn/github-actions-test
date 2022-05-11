@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: payload
-        run: acho ${{ github.event.client_payload }}
+        run: echo ${{ github.event.client_payload }}
       - name: List Files Before Checkout
         run: |
           ls -a
