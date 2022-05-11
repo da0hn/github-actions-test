@@ -4,6 +4,10 @@ Accept: application/vnd.github.everest-preview+json
 Content-Type: application/json
 
 {
-  "event_type": "build"
+  "event_type": "build",
+  "client_payload": {
+    "env": "production",
+    "author": "Gabriel"
+  }
 }
 
