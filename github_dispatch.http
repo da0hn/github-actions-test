@@ -1,0 +1,9 @@
+POST https://api.github.com/repos/da0hn/github-actions-test/dispatches
+Authorization: Bearer {{token}}
+Accept: application/vnd.github.everest-preview+json
+Content-Type: application/json
+
+{
+  "event_type": "build"
+}
+
